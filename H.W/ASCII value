@@ -1,0 +1,10 @@
+#ASCII value checker
+#1.Take input from the user
+user_input=input("Enter a character to find its ASCII value:")
+#2.Make sure the user entered exactly one character
+if len(user_input)==1:
+    #3.use the ord() function to get the ASCII value
+    ascii_value = ord(user_input)
+    print(f"The ASCII value of'{user_input}' is{ascii_value}.")
+else:
+    print("Please enter exactly one character.")
