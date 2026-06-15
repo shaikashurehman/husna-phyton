@@ -1,0 +1,10 @@
+#1.Take inputs from the user
+num1= input("Enter the first number:")
+num2= input("Enter the second number:")
+num3= input("Enter the third number:")
+#display the number before trhe swap
+print(f"\nBefore swapping: First={num1},second={num2} third={num3}")
+#2.swap the positions simultaneously
+num1,num2,num3=num2,num3,num1
+#display the numbers after the swap
+print(f"\nafter swapping: First={num1},second={num2} third={num3}")
